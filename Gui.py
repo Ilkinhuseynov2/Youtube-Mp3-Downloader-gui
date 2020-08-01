@@ -30,7 +30,7 @@ class Pencere():
         self.button.clicked.connect(self.down_basla)
         self.button.setText("Yüklə")
         self.resim_label = QLabel(w)
-        self.pixmap = QPixmap('resim.png')
+        self.pixmap = QPixmap('image.png')
         self.resim_label.setPixmap(self.pixmap)
         self.label_copy = QLabel(w)
         self.label_copy.setText("DARK Copyright")
